@@ -37,16 +37,16 @@ a{
   background: var(--dark-01);
 }
 
-.bg-dark-01 {
+.bg-dark-02 {
   background: var(--dark-02);
 }
 
-.bg-dark-01 {
+.bg-dark-03 {
   background: var(--dark-03);
 }
 
 /* font color  */
-.cont-white {
+.font-white {
   color: var(--white);
 }
 
@@ -61,8 +61,17 @@ a{
 .font-dark-03 {
   color: var(--dark-03)
 }
-
+/* footer color  */
+.font-footer-dark-01{
+  color:var(--footer-dark-01)
+}
+.font-footer-dark-02{
+  color:var(--footer-dark-02)
+}
 /* Font size  */
+.fs-14{
+  font-size: 14px;
+}
 .fs-16 {
   font-size: 16px;
 }

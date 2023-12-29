@@ -1,0 +1,42 @@
+.footer-wrap{
+    padding-top: 130px;
+    padding-bottom: 130px;
+    width: 100%;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.footer-company-details{
+    width: 300px;
+}
+.footer-company-details p{
+    line-height: 27px;
+}
+.footer-brand-name{
+    margin-bottom: 20px;
+}
+.footer-all-link{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+.footer-company-link{
+   
+}
+.footer-company-link h4{
+   margin-bottom: 20px;
+}
+
+.footer-company-link a{
+    display: block;
+    line-height: 40px;
+}
+.footer-copy-write{
+    display: flex;
+    justify-content: space-between;
+}
