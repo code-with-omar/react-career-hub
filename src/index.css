@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&family=Raleway:wght@900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --dark-01: #1A1919;
+  --dark-02: #474747;
+  --dark-03: #757575;
+  --white: #FFF;
+  --bg-linear: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+  --bg-button: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+  --footer-dark-01: rgba(255, 255, 255, 0.40);
+  --footer-dark-02: rgba(255, 255, 255, 0.70);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+}
+a{
+  text-decoration: none;
+  color:var(--white);
+}
+/* background color  */
+.bg-linear-white {
+  background: var(--bg-linear);
+}
+
+.bg-white {
+  background: var(--bg-white);
+}
+
+.bg-dark-01 {
+  background: var(--dark-01);
+}
+
+.bg-dark-01 {
+  background: var(--dark-02);
+}
+
+.bg-dark-01 {
+  background: var(--dark-03);
+}
+
+/* font color  */
+.cont-white {
+  color: var(--white);
+}
+
+.font-dark-01 {
+  color: var(--dark-01)
+}
+
+.font-dark-02 {
+  color: var(--dark-02)
+}
+
+.font-dark-03 {
+  color: var(--dark-03)
+}
+
+/* Font size  */
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+.fs-32 {
+  font-size: 32px;
+}
+
+.fs-48 {
+  font-size: 48px;
+}
+
+/* font weight  */
+.fw-200 {
+  font-weight: 200;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 600;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-800 {
+  font-weight: 800;
+}
+
+/* font align  */
+.text-center {
+  text-align: center;
+}
+
+/* Container  */
+.container {
+  width: 1340px;
+  margin: 0 auto;
+}
+
+/* primary btn for all content  */
+.primary-btn {
+  padding: 12px 20px;
+  align-items: flex-start;
+  border-radius: 8px;
+  background: var(--bg-button);
+  border: none;
+  color:var(--white);
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
