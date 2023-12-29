@@ -1,4 +1,5 @@
 
+import FeaturedJobs from '../FeaturedJobs/FeaturedJobs';
 import Hero from '../Hero/Hero';
 import JobCategoryList from '../JobCategoryList/JobCategoryList';
 
@@ -8,6 +9,7 @@ const Main = () => {
         <main>
             <Hero></Hero>
             <JobCategoryList></JobCategoryList>
+            <FeaturedJobs></FeaturedJobs>
         </main>
     );
 };
