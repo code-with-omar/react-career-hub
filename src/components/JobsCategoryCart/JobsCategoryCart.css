@@ -1,0 +1,26 @@
+.job-category-cart {
+    width: 311px;
+    height: 243px;
+    border-radius: 8px;
+    padding: 40px;
+}
+
+.job-category-cart-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.10) 0%, rgba(152, 115, 255, 0.10) 100%);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 32px
+}
+
+.job-category-cart-img img {
+    width: 40px;
+    height: 40px;   
+}
+.job-category-cart p{
+    line-height: 26px;
+    margin-top: 15px;
+}

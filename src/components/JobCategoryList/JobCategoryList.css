@@ -1,0 +1,12 @@
+.jab-category-list-wrap{
+    padding:70px 0px;
+}
+.jab-category-list-wrap p{
+    line-height: 26px;
+}
+.job-category-cart-wrap{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 32px;
+}
