@@ -3,7 +3,7 @@ import Hero from '../Hero/Hero';
 
 const Main = () => {
     return (
-        <main className='container'>
+        <main>
             <Hero></Hero>
         </main>
     );
