@@ -8,8 +8,8 @@ const Header = () => {
           CareerHub
         </div>
         <div className='header-links'>
-          <Link to='/home' className='font-dark-03 fs-16 fw-500'>Home</Link>
-          <Link to='/apply' className='font-dark-03 fs-16 fw-500'>Applied Job</Link>
+          <Link to='/' className='font-dark-03 fs-16 fw-500'>Home</Link>
+          <Link to='/applied' className='font-dark-03 fs-16 fw-500'>Applied Job</Link>
           <Link to='/blog' className='font-dark-03 fs-16 fw-500'>Blog</Link>
         </div>
         <div className='header-btn'>
