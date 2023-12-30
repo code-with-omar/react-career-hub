@@ -1,0 +1,25 @@
+.applied-job-card {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.applied-job-brand {
+    width: 240px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--Dark-07, #F4F4F4);
+}
+
+.applied-job-brand img {
+    width: 145.858px;
+    height: 50px;
+}
+
+.applied-job-details {
+    flex-grow: 1;
+}
