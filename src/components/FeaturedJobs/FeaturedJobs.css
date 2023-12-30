@@ -1,0 +1,9 @@
+.featured-jobs-wrap {
+    padding-bottom: 130px;
+}
+
+.featured-jobs-cards {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 25px;
+}

@@ -7,22 +7,24 @@ const FeaturedJobsCard = ({ job }) => {
     const { logo, job_title, company_name, remote_or_onsite, job_type, location, salary } = job;
     return (
         <div className='featured-job-card'>
-            <img src={logo} alt="" />
-            <h3>{job_title}</h3>
-            <p>{company_name}</p>
+            <div className='featured-job-card-logo'>
+                <img src={logo} alt=""  />
+            </div>
+            <h3 className='font-dark-02 fw-800 fs-24'>{job_title}</h3>
+            <p className='font-dark-03 fw-600 fs-20'>{company_name}</p>
             <div className='featured-job-btn'>
                 <button>{remote_or_onsite}</button>
                 <button>{job_type}</button>
             </div>
-            <div>
-                <p>
+            <div className='location'>
+                <p className='font-dark-03 fs-20 fw-600'>
                     <img src={locationIcon} alt="" /> {location}
                 </p>
-                <p>
+                <p className='font-dark-03 fs-20 fw-600'>
                     <img src={moneyIcon} alt="" /> {salary}
                 </p>
             </div>
-            <button className='primary-btn'><Link>Star Applying</Link></button>
+            <button className='primary-btn featured-btn'><Link>View Details</Link></button>
         </div>
     );
 };

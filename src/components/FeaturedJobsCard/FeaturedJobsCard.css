@@ -1,0 +1,45 @@
+.featured-job-card {
+    border-radius: 8px;
+    border: 1px solid var(--Dark-06, #E8E8E8);
+    padding: 40px;
+}
+
+.featured-job-card-logo img {
+    width: 116.686px;
+    height: 40px;
+}
+
+.featured-job-card h3 {
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+.featured-job-btn {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 25px 0;
+}
+
+.featured-job-btn button {
+    padding: 9px 19px;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px solid var(--Linear, #7E90FE);
+    border: none;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.location{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 20px;
+}
+.featured-btn{
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
