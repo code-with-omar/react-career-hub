@@ -21,6 +21,10 @@
 
 .job-details-right {
     width: 440px;
+}
+
+.job-details-right-contain {
+
     border-radius: 8px;
     background: linear-gradient(90deg, rgba(126, 144, 254, 0.10) 0%, rgba(152, 115, 255, 0.10) 100%);
     padding: 30px;
@@ -33,4 +37,12 @@
     align-items: center;
     justify-content: flex-start;
     gap: 16px;
+}
+.job-apply-btn{
+    width: 100%;
+    margin-top: 24px;
+}
+.job-apply-btn button{
+    width: 100%;
+    
 }

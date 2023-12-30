@@ -151,10 +151,11 @@ a {
   border: none;
   color: var(--white);
   font-family: Manrope;
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 600;
   line-height: normal;
+  cursor: pointer;
 }
 
 .hr {
