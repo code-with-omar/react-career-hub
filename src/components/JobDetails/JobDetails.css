@@ -1,14 +1,36 @@
-.job-details-title{
-    padding-top:50px ;
+.job-details-title {
+    padding-top: 50px;
     padding-bottom: 100px;
 }
-.job-details{
+
+.job-details {
+    margin: 50px 0px;
     display: flex;
     gap: 24px;
 }
-.job-details-left{
+
+.job-details-left {
     width: 876px;
 }
-.job-details-right{
+
+.job-details-left p {
+    line-height: 32px;
+    align-items: justify;
+    margin-bottom: 24px;
+}
+
+.job-details-right {
     width: 440px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.10) 0%, rgba(152, 115, 255, 0.10) 100%);
+    padding: 30px;
+}
+
+.job-details-right-section-01 {
+    display: flex;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
 }

@@ -20,41 +20,43 @@ const JobDetails = () => {
             <div className='container'>
                 <div className='job-details'>
                     <div className='job-details-left'>
-                        <p>Job Description: {job_description}</p>
-                        <p>Job Responsibility: {job_responsibility}</p>
-                        <p>Educational Requirements:</p>
+                        <p><span className='fs-16 fw-800 font-dark-01'>Job Description:</span> {job_description}</p>
+                        <p><span className='fs-16 fw-800 font-dark-01'>Job Responsibility:</span> {job_responsibility}</p>
+                        <p><span className='fs-16 fw-800 font-dark-01'>Educational Requirements:</span></p>
                         <p>{educational_requirements}</p>
-                        <p>Experiences:</p>
+                        <p className='fs-16 fw-800 font-dark-01'>Experiences:</p>
                         <p>{experiences}</p>
                     </div>
-                    <div className='job-details-right'>
-                        <h4>Job Details</h4>
+                    <div className='job-details-right '>
+                        <h4 className='fs-20 font-dark-01 fw-800 '>Job Details</h4>
+                        <hr className='hr' />
                         <div>
-                            <div>
+                            <div className='job-details-right-section-01'>
                                 <img src={moneyIcon} alt="" />
-                                <h5>Salary: {salary}</h5>
+                                <h5 className='fs-18 font-dark-01 fw-700'>Salary: <span className='font-dark-03 fw-600'>{salary}</span></h5>
                             </div>
-                            <div>
+                            <div className='job-details-right-section-01'>
                                 <img src={jobIcon} alt="" />
-                                <h5>Job Title: {job_title}</h5>
+                                <h5 className='fs-18 font-dark-01 fw-807'>Job Title: <span className='font-dark-03 fw-600'>{job_title}</span> </h5>
                             </div>
                         </div>
-                        <h4>Contact Information</h4>
+                        <h4 className='fs-20 font-dark-01 fw-800 '>Contact Information</h4>
+                        <hr className='hr' />
                         <div>
-                            <div>
-                                <img src={moneyIcon} alt="" />
-                                <h5>Phone: {contact_information.phone}</h5>
+                            <div className='job-details-right-section-01'>
+                                <img src={phoneIcon} alt="" />
+                                <h5 className='fs-18 font-dark-01 fw-700'>Phone:<span className='font-dark-03 fw-600'>{contact_information.phone}</span> </h5>
                             </div>
-                            <div>
-                                <img src={moneyIcon} alt="" />
-                                <h5>email: {contact_information.email}</h5>
+                            <div className='job-details-right-section-01'>
+                                <img src={emailIcon} alt="" />
+                                <h5 className='fs-18 font-dark-01 fw-700'>email: <span className='font-dark-03 fw-600'>{contact_information.email}</span> </h5>
                             </div>
-                            <div>
-                                <img src={moneyIcon} alt="" />
-                                <h5>Address: {contact_information.address}</h5>
+                            <div className='job-details-right-section-01'>
+                                <img src={locationIcon} alt="" />
+                                <h5 className='fs-18 font-dark-01 7w-800'>Address: <span className='font-dark-03 fw-600'> {contact_information.address}</span></h5>
                             </div>
                         </div>
-
+                        
                     </div>
                 </div>
             </div>

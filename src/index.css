@@ -20,10 +20,12 @@
 body {
   font-family: 'Manrope', sans-serif;
 }
-a{
+
+a {
   text-decoration: none;
-  color:var(--white);
+  color: var(--white);
 }
+
 /* background color  */
 .bg-linear-white {
   background: var(--bg-linear);
@@ -61,17 +63,21 @@ a{
 .font-dark-03 {
   color: var(--dark-03)
 }
+
 /* footer color  */
-.font-footer-dark-01{
-  color:var(--footer-dark-01)
+.font-footer-dark-01 {
+  color: var(--footer-dark-01)
 }
-.font-footer-dark-02{
-  color:var(--footer-dark-02)
+
+.font-footer-dark-02 {
+  color: var(--footer-dark-02)
 }
+
 /* Font size  */
-.fs-14{
+.fs-14 {
   font-size: 14px;
 }
+
 .fs-16 {
   font-size: 16px;
 }
@@ -143,10 +149,19 @@ a{
   border-radius: 8px;
   background: var(--bg-button);
   border: none;
-  color:var(--white);
+  color: var(--white);
   font-family: Manrope;
   font-size: 20px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+}
+
+.hr {
+  width: 364px;
+  height: 1px;
+  opacity: 0.3;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
 }
